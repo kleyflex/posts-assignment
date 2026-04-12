@@ -1,0 +1,42 @@
+# Посты
+
+Создайте страниц, которое загружает посты из [JSONPlaceholder](https://jsonplaceholder.typicode.com/) и выводит их на страницу в виде карточек.
+
+## API
+
+Основной эндпоинт: `https://jsonplaceholder.typicode.com/posts`
+
+Откройте эту ссылку в браузере и изучите структуру JSON-ответа. Каждый пост содержит:
+
+| Поле | Описание | Пример |
+|------|----------|--------|
+| `id` | Номер поста | `1` |
+| `title` | Заголовок | `"sunt aut facere..."` |
+| `body` | Текст поста | `"quia et suscipit..."` |
+| `userId` | ID автора | `1` |
+
+Также есть эндпоинт для комментариев к посту: `https://jsonplaceholder.typicode.com/posts/1/comments`
+
+## Задание
+
+В репозитории есть файл `index.html` с готовой разметкой. Ваша задача - написать `script.js`, и по желанию добавить стили.
+
+### Вывести все посты
+
+1. При загрузке страницы приложение делает `fetch` к `https://jsonplaceholder.typicode.com/posts`
+2. Ответ - это массив из 100 объектов (постов)
+3. С помощью цикла `for` пройдитесь по массиву и для каждого поста создайте карточку на странице
+4. В карточке должно быть: номер поста (`id`), заголовок (`title`), текст (`body`)
+
+### Превью текста
+
+1. Показывайте не весь текст поста, а только первые 50 символов с многоточием в конце
+   - это можно сделать через `.slice(0, 50) + "..."`
+2. Выведите только первые 20 постов, а не все 100
+
+## Полезные ссылки
+
+- [JSONPlaceholder документация](https://jsonplaceholder.typicode.com/)
+- [MDN: fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [MDN: Работа с JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+- [MDN: String.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
