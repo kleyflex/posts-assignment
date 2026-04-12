@@ -1,6 +1,6 @@
 # Посты
 
-Создайте страниц, которое загружает посты из [JSONPlaceholder](https://jsonplaceholder.typicode.com/) и выводит их на страницу в виде карточек.
+Создайте страницу, которая загружает посты из [JSONPlaceholder](https://jsonplaceholder.typicode.com/) и выводит их на страницу в виде карточек.
 
 ## API
 
