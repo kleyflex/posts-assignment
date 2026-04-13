@@ -5,6 +5,7 @@
 ## API
 
 Основной эндпоинт: `https://jsonplaceholder.typicode.com/posts`, либо любой другой который сможете найти, например `https://pokeapi.co`
+, `https://cataas.com/api/cats`
 
 Откройте эту ссылку в браузере и изучите структуру JSON-ответа. Каждый пост содержит:
 
