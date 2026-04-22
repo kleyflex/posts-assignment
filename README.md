@@ -4,17 +4,9 @@
 
 ## API
 
-Основной эндпоинт: `https://jsonplaceholder.typicode.com/posts`, либо любой другой который сможете найти, например `https://pokeapi.co`
-, `https://cataas.com/api/cats`
+Основной эндпоинт: `https://jsonplaceholder.typicode.com/posts`, либо любой другой который сможете найти, например `https://cataas.com/api/cats` (рабочий)
 
-Откройте эту ссылку в браузере и изучите структуру JSON-ответа. Каждый пост содержит:
-
-| Поле | Описание | Пример |
-|------|----------|--------|
-| `id` | Номер поста | `1` |
-| `title` | Заголовок | `"sunt aut facere..."` |
-| `body` | Текст поста | `"quia et suscipit..."` |
-| `userId` | ID автора | `1` |
+Откройте эту ссылку в браузере и изучите структуру JSON-ответа. Изучите что содержится внутри JSON:
 
 Также есть эндпоинт для комментариев к посту: `https://jsonplaceholder.typicode.com/posts/1/comments`
 
